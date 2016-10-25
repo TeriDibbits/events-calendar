@@ -10,11 +10,49 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Merriweather';
+  font-family: Merriweather, serif;
 }
 
-.caption {
-  font-weight: bold;
+table {
+  border: solid 1px #ccc;
+}
+
+tbody td {
+  height: 8.75em;
+  border-bottom-color: #ccc;
+  border-right: solid 1px #ccc;
+}
+
+th {
+  border-bottom-color: #ccc;
+}
+
+.event {
+  border-radius: 8px;
+  border: solid 1px #666;
+}
+
+.eventgrey {
+  background-color: #f2f2f2;
+  border: #333;
+}
+
+.eventred {
+  background-color: #f2bcbc;
+  color: #991919;
+  border: #b92828;
+}
+
+.eventgreen {
+  background-color: #d1e0bf;
+  color: #51603f;
+  border: #6b7e54;
+}
+
+.eventblue {
+  background-color: #d2d6f0;
+  color: #38448e;
+  border: #1d38da;
 }
 
 *, *::before, *::after {
